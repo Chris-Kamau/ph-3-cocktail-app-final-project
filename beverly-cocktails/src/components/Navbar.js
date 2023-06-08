@@ -36,6 +36,9 @@ function NavBar() {
             <NavLink to="/table" className="nav-link active" aria-current="page" href="#" >Table</NavLink>
             </li>
             <li className="nav-item">
+            <NavLink to="/form" className="nav-link active" aria-current="page" href="#" >Form</NavLink>
+            </li>
+            <li className="nav-item">
               <span className="navbar-text mx-auto">Place your order: 0722179020</span>
             </li>
           </ul>

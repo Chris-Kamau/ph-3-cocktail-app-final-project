@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import './TableCocktails.css';
-// import AddCocktailForm from "./AddCocktailForm";
+import AddCocktailForm from "./AddCocktailForm";
 
 function CocktailTable() {
   const [cocktails, setCocktails] = useState([]);
@@ -34,7 +34,7 @@ function CocktailTable() {
 
   return (
     <div>
-      {/* <AddCocktailForm onAdd={addCocktail} /> */}
+      <AddCocktailForm onAdd={addCocktail} />
       <table className="table">
         <thead>
           <tr>
