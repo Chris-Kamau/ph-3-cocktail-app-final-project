@@ -25,6 +25,7 @@ This is a web application for managing and displaying a list of cocktails. Users
 2. Navigate to the project directory: `cd cocktail-app`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
+5. Start the back-end server. Find the link to the back-end server here "https://github.com/Chris-Kamau/phase-3-ruby-sever-side-project"
 
 ## Usage
 
